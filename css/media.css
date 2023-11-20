@@ -1,0 +1,277 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*	header*/
+	header {
+	    padding: 8px 0;
+	}
+	body {
+    padding-top: 85px;
+	}
+	.menu ul li a {
+    padding: 10px 0 0 !important;
+    font-size: 18px !important;
+    text-align: right;
+	}
+
+	.c_padding{
+    padding-top: 50px;
+    padding-bottom: 70px;
+	}
+	/*	slider*/
+	.slider {
+    padding-bottom: 60px;
+	}
+	.c_ind {
+    bottom: -60px;
+	}
+	.c_ind [data-bs-target] {
+    width: 13px;
+    height: 13px;
+	}
+	.s_text {
+    margin-top: 0px;
+	}
+	.s_text h1 {
+    font-size: 25px !important;
+	}
+	.s_text h2 {
+    margin: 10px 0;
+    font-size: 18px;
+	}
+	.s_text p {
+    margin-bottom: 20px;
+	}
+	.s_icon ul li {
+    margin-right: 15px !important;
+	}
+	.s_icon ul li i {
+    font-size: 35px;
+	}
+	/*feature start	*/
+	.c_h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+	}
+	.c_p {
+    font-size: 17px;
+    line-height: 25px;
+	}
+	.f_item {
+    margin-top: 30px;
+	}
+	.f_text {
+    text-align: center;
+	}
+	.f_icon i {
+	margin-top: 0;
+    font-size: 40px;
+	}
+	.f_text h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+	}
+	.f_text p {
+    letter-spacing: 0; 
+	}
+	/*	contact start*/
+	.c_form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+	}
+	.c_input {
+	height: 45px;
+	padding: 10px 10px;
+	}
+	.c_submit {
+    height: 45px;
+	}
+	.c_icon li {
+    margin-right: 20px !important;
+	}
+	.c_icon li i {
+    font-size: 35px;
+	}
+	/*	footer start*/
+	footer {
+    padding-bottom: 70px;
+	}
+	.f_1 {
+	text-align: center;
+	}
+	.f_2 {
+	margin-top: 40px;
+    text-align: center;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/*	header*/
+	.menu ul li a {
+    padding: 10px 0 0 !important;
+    font-size: 20px;
+    text-align: right;
+	}
+	.c_padding{
+    padding-top: 50px;
+    padding-bottom: 70px;
+	}
+	/*	slider*/
+	.slider {
+    padding-bottom: 60px;
+	}
+	.c_ind {
+    bottom: -55px;
+	}
+	.c_ind [data-bs-target] {
+    width: 13px;
+    height: 13px;
+	}
+	.s_text {
+    margin-top: 0px;
+	}
+	.s_text h1 {
+    font-size: 25px !important;
+	}
+	.s_text h2 {
+    margin: 10px 0;
+    font-size: 18px;
+	}
+	.s_text p {
+    margin-bottom: 20px;
+	}
+	.s_icon ul li {
+    margin-right: 20px !important;
+	}
+	.s_icon ul li i {
+    font-size: 35px;
+	}
+	/*feature start	*/
+	.c_h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+	}
+	.c_p {
+    font-size: 17px;
+    line-height: 25px;
+	}
+	.f_text {
+    text-align: center;
+	}
+	.f_icon i {
+	margin-top: 0;
+    font-size: 40px;
+	}
+	.f_text h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+	}
+	.f_text p {
+    letter-spacing: 0; 
+	}
+	/*	contact start*/
+	.c_form {
+    margin-top: 35px;
+    margin-bottom: 40px;
+	}
+	.c_input {
+	height: 45px;
+	padding: 10px 10px;
+	}
+	.c_submit {
+    height: 45px;
+	}
+	.c_icon li {
+    margin-right: 25px !important;
+	}
+	.c_icon li i {
+    font-size: 40px;
+	}
+/*	footer start*/
+	footer {
+    padding-bottom: 70px;
+	}
+	.f_1 {
+	text-align: center;
+	margin-bottom: 40px;
+	}
+	.f_2 {
+    text-align: center;
+	}
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*	header*/
+	.menu ul li a {
+    padding: 10px 0 0 !important;
+    text-align: right;
+	}
+	.c_padding{
+    padding-top: 80px;
+    padding-bottom: 100px;
+	}
+	/*	feature start*/
+	.f_text h2 {
+    font-size: 28px;
+	}
+	.f_text p {
+    font-size: 18px;
+	}
+	.f_item {
+    margin-top: 50px;
+	}
+/*	contact start*/
+.c_form {
+    margin-top: 65px;
+	}
+/*	footer start*/
+footer {
+    padding-bottom: 100px;
+	}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*feature start*/
+.f_text h2 {
+    font-size: 28px;
+	}
+	.f_text p {
+    font-size: 18px;
+	}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/*feature start*/
+.f_text h2 {
+    font-size: 28px;
+	}
+	.f_text p {
+    font-size: 19px;
+	}
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+/*	header start*/
+
+	.s_text p {
+    font-size: 20px;
+	}
+	.s_icon ul li i {
+    font-size: 50px;
+	}
+/*	header end*/
+
+/*feature start*/
+.f_text h2 {
+    font-size: 28px;
+	}
+	.f_text p {
+    font-size: 19px;
+	}
+ }
